@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+Аккаунт
+{% endblock %}
+
+{% block content %}
+{% if username %}
+<h3>Добрый день, {{username}}!</h3>
+{% endif %}
+<p>Это страница вашего аккаунта.</p>
+{% endblock %}
